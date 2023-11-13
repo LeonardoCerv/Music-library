@@ -30,7 +30,6 @@ public:
   //agrega el setter a tu atributo extra
 
   void info();
-
 };
 
 Song::Song(){
