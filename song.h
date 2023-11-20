@@ -1,75 +1,59 @@
-#include<string>
-#include <vector>
+#ifndef SONG_H
+#define SONG_H
+
+#include <string>
 #include <iostream>
+
+#include "music.h"
 
 using namespace std;
 
-class Song{
-
+class Song : public Music {
 private:
-  string name;
-  string author;
-  string genre;
-  int duration;
-  //agrega un atributo extra
+    string route;
+    // Add any additional attributes specific to Song
 
 public:
-  Song();
-  Song(string nm, string thr,string gnr,int drtn): name(nm), author(thr), genre(gnr), duration(drtn){};
+    // Constructors
+    Song();
+    Song(string nm, string thr, string gnr, int drtn, string rt, bool fvrt);
 
-  string get_name();
-  string get_author();
-  string get_genre();
-  int get_duration();
-  //agrega el getter a tu atributo extra
+    // Getter and setter for the new attribute
+    string get_route();
+    void set_route(string rt);
 
-  void set_name(string);
-  void set_author(string);
-  void set_genre(string);
-  void set_duration(int);
-  //agrega el setter a tu atributo extra
-
-  void info();
+    // Additional methods if needed
+    void info();
+    int play_song();
 };
 
-Song::Song(){
+// Implementation of the Song class
+
+
+Song::Song(string nm, string thr, string gnr, int drtn, string rt, bool fvrt)
+    : Music(nm, thr, 0, gnr, drtn, fvrt), route(rt) {
+    // Initialize any additional attributes specific to Song
 }
 
-//getters
-string Song::get_name(){
-  return name;
+// Getter and setter for the new attribute
+string Song::get_route() {
+    return route;
 }
 
-string Song::get_author(){
-  return author;
+void Song::set_route(string rt) {
+    route = rt;
 }
 
-string Song::get_genre(){
-  return genre;
+// Additional methods or overrides
+void Song::info() {
+    cout << "Song: " << get_name() << " -" << get_author() << endl;
+    cout << "Genre: " << get_genre() << " Duration: " << get_duration() << endl;
+    cout << "Stored at: " << route << endl;
 }
 
-int Song::get_duration(){
-  return duration;
+int Song::play_song() {
+    // Implement play_song() if needed
+    return 0;
 }
 
-//setters
-void Song::set_name(string nm){
-  name = nm;
-}
-
-void Song::set_author(string thr){
-  author = thr;
-}
-
-void Song::set_genre(string gnr){
-  genre = gnr;
-}
-
-void Song::set_duration(int drtn){
-  duration = drtn;
-}
-
-void Song::info(){
-  cout<<"Song: "<<name<<"  -"<<author<<endl;
-  cout<< "genre: "<<genre<<"   duration: "<<duration<<endl;
-}
+#endif
