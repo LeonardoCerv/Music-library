@@ -10,4 +10,4 @@ El problema es que los reproductores de musica actuales, no te dejan organizar o
 
 # Codigo
 
-Todos los archivos utilizados, se encuentran dentro del repositorio y la version actual del ejecutable tiene como nombre "player.exe"
+Todos los archivos utilizados, se encuentran dentro del repositorio y la version actual del ejecutable tiene como nombre "main.exe"
