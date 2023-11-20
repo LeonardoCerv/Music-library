@@ -16,7 +16,7 @@ public:
   User(){
     username = "Joe Black";
     password = "123";
-    playlists[0]= username+" has no playlists added";
+    playlists.push_back(username+" has no playlists added");
   };
 
   User(string pword, vector<string> plists): password(pword), playlists(plists){
