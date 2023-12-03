@@ -15,4 +15,4 @@ Todos los archivos utilizados, se encuentran dentro del repositorio y la version
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 # Diagrama de clases
-![image](https://github.com/OnyxDude/Music-library/assets/68921970/62ccf3c6-13c3-4fd9-bad2-25c6bbf1f1f4)
+![image](https://github.com/OnyxDude/Music-library/assets/68921970/289059cd-e71a-4b7a-a473-b781b20e845e)
