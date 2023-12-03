@@ -457,6 +457,7 @@ void Usuario::submenuPlaylist(int index) {
             for (Cancion i: cancionesPlaylist){
                 cout << "(" <<counter<< ") ";
                 cout<<i.getNombre()<<endl;
+                counter+=1;
             }
             cout << "--------------------------" << endl;
             cin >> selection;

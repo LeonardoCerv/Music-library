@@ -8,7 +8,7 @@ using namespace std;
 // Clase Music es padre de Cancion y Playlist
 class Musica{
 
-private:
+protected:
   string nombre;        // Nombre de la canción
   string autor;      // Autor de la canción
   string genero;       // Género de la canción
