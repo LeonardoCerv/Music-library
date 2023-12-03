@@ -10,4 +10,10 @@ El problema es que los reproductores de musica actuales, no te dejan organizar o
 
 # Codigo
 
-Todos los archivos utilizados, se encuentran dentro del repositorio y la version actual del ejecutable tiene como nombre "player.exe"
+Todos los archivos utilizados, se encuentran dentro del repositorio y la version actual del ejecutable tiene como nombre "main.exe"
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+# Diagrama de clases
+
+![image](https://github.com/OnyxDude/Music-library/assets/68921970/2cfe08d1-67c0-47f0-bdc2-b1fdcb224711)
