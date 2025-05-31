@@ -1,4 +1,6 @@
 # Sistema de Gestión de Biblioteca Musical
+[![Language](https://img.shields.io/badge/code-C++-blue.svg?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![Campo](https://img.shields.io/badge/Campo-Programacion%20Orientada%20a%20Objetos-purple)]()
 
 Una aplicación de consola en C++ que proporciona una solución completa de gestión de biblioteca musical con autenticación de usuarios, colecciones musicales personales y organización de listas de reproducción. Este proyecto demuestra principios de programación orientada a objetos e implementación de estructuras de datos en un contexto práctico del mundo real.
 
