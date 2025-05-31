@@ -1,6 +1,8 @@
 > 📖 🇪🇸 También disponible en español: [README.es.md](README.es.md)
 
 # Music Library Management System
+[![Language](https://img.shields.io/badge/code-C++-blue.svg?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![Field](https://img.shields.io/badge/Field-Object%20Oriented%20Programming-purple)]()
 
 A C++ console application that provides a complete music library management solution with user authentication, personal music collections, and playlist organization. This project demonstrates object-oriented programming principles and data structure implementation in a practical, real-world context.
 
